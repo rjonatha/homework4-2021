@@ -33,7 +33,7 @@ body{
 
   /*Req 1*/
   font-family: "Andika", sans-serif;
-  background-image: url("pigeon-background.JPEG");
+  background-image: url('../images/pigeon-background.JPEG');
   background-color: #DDDDDD;
   background-repeat: no-repeat;
 }
@@ -53,7 +53,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #c12258;
+  color: #B21F50;
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
@@ -92,25 +92,25 @@ table{
     border-collapse: separate;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{
-  border-top-left-radius: 10px;
+  border-top-left-radius: 50px;
 }
 
 thead tr:first-child th:last-child{
-  border-top-right-radius: 10px;
+  border-top-right-radius: 50px;
 }
 
 tbody tr:last-child th:first-child{
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 50px;
 }
 
 tbody tr:last-child th:last-child{
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 50px;
 }
 
 /*Add selectors and rules here*/
@@ -121,7 +121,7 @@ tr:nth-child(even) {
   background: #D1D1D1;
 }
 tr:hover{
-  background-color: rgba(126,8,32,.25);
+  background-color: rgba(126,8,37,.25);
 }
 
 footer{
