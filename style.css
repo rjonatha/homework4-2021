@@ -33,7 +33,7 @@ body{
 
   /*Req 1*/
   font-family: "Andika", sans-serif;
-  background-image: url("pigeon-background.JPEG");
+  background-image: url('../images/pigeon-background.JPEG');
   background-color: #DDDDDD;
   background-repeat: no-repeat;
 }
@@ -53,7 +53,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #c12258;
+  color: #B21F50;
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
@@ -121,7 +121,7 @@ tr:nth-child(even) {
   background: #D1D1D1;
 }
 tr:hover{
-  background-color: rgba(126,8,32,.25);
+  background-color: rgba(126,8,37,.25);
 }
 
 footer{
